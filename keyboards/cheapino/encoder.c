@@ -16,7 +16,13 @@ void clicked(void) {
 }
 
 void turned(bool clockwise) {
-    tap_code(clockwise ? KC_VOLD : KC_VOLU);
+    if (IS_LAYER_ON(1)) {
+        tap_code(clockwise ? RGB_VAD : RGB_VAI);
+    } else if (IS_LAYER_ON(2)) {
+        tap_code(clockwise ? RGB_SAD : RGB_SAI);
+    } else {
+        tap_code(clockwise ? KC_VOLD : KC_VOLU);
+    }
 }
 
 void fix_encoder_action(matrix_row_t current_matrix[]) {
