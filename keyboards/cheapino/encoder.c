@@ -17,9 +17,7 @@ void clicked(void) {
 
 void turned(bool clockwise) {
     if (IS_LAYER_ON(1)) {
-        tap_code(clockwise ? RGB_VAD : RGB_VAI);
-    } else if (IS_LAYER_ON(2)) {
-        tap_code(clockwise ? RGB_SAD : RGB_SAI);
+        tap_code(clockwise ? KC_PGDN: KC_PGUP);
     } else {
         tap_code(clockwise ? KC_VOLD : KC_VOLU);
     }
