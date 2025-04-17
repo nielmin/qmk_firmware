@@ -19,7 +19,7 @@ void turned(bool clockwise) {
     if (IS_LAYER_ON(1)) {
         tap_code(clockwise ? KC_PGDN: KC_PGUP);
     } else {
-        tap_code(clockwise ? KC_VOLD : KC_VOLU);
+        tap_code(clockwise ? KC_VOLU : KC_VOLD);
     }
 }
 
