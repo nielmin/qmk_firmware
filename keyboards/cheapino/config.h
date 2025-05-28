@@ -27,7 +27,7 @@
 
 // Pick good defaults for enabling homerow modifiers
 //#define QUICK_TAP_TERM 0
-#define TAPPING_TERM 230
+#define TAPPING_TERM 210
 // #define CHORDAL_HOLD
 #define PERMISSIVE_HOLD
 
