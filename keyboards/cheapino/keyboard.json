@@ -16,6 +16,10 @@
         "term": 210,
         "permissive_hold": true
     },
+    "caps_word": {
+        "enabled": true,
+        "both_shifts_turns_on": true
+    },
     "community_layouts": ["split_3x5_3"],
     "matrix_pins": {
         "cols": [
