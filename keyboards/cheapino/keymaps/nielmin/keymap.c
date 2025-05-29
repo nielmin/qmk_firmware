@@ -10,6 +10,16 @@
  * edit it directly.
  */
 
+enum combos {
+    QW_ESC
+};
+
+const uint16_t PROGMEM qw_combo[] = {KC_Q, KC_W, COMBO_END};
+
+combo_t key_combos[] = {
+    [QW_ESC] = COMBO(qw_combo, KC_ESC),
+};
+
 enum {
     TD_TAB_ESC,
 };
