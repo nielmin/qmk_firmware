@@ -11,13 +11,13 @@
  */
 
 enum combos {
-    QW_ESC
+    WF_ESC
 };
 
-const uint16_t PROGMEM qw_combo[] = {KC_Q, KC_W, COMBO_END};
+const uint16_t PROGMEM qw_combo[] = {KC_W, KC_F, COMBO_END};
 
 combo_t key_combos[] = {
-    [QW_ESC] = COMBO(qw_combo, KC_ESC),
+    [WF_ESC] = COMBO(qw_combo, KC_ESC),
 };
 
 enum {
