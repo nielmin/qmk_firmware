@@ -5,6 +5,7 @@ RGBLIGHT_ENABLE = yes
 DEFERRED_EXEC_ENABLE = yes
 REPEAT_KEY_ENABLE = yes
 TAP_DANCE_ENABLE = yes
+COMBO_ENABLE = yes
 SRC += encoder.c
 SRC += ghosting.c
 SRC += matrix.c
