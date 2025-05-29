@@ -12,6 +12,10 @@
         "mousekey": true,
         "nkro": true
     },
+    "tapping": {
+        "term": 210,
+        "permissive_hold": true
+    },
     "community_layouts": ["split_3x5_3"],
     "matrix_pins": {
         "cols": [
