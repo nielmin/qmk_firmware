@@ -30,6 +30,7 @@
 // #define TAPPING_TERM 210
 // #define CHORDAL_HOLD
 // #define PERMISSIVE_HOLD
+#define TAP_FLOW_TERM 150
 
 
 #define WS2812_DI_PIN GP16 // The pin connected to the data pin of the LEDs
