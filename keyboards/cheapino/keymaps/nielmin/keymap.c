@@ -20,13 +20,19 @@ enum layers {
 };
 
 enum combos {
-    WF_ESC
+    WF_ESC,
+    UY_BPSC,
+    COMMDOT_ENT
 };
 
-const uint16_t PROGMEM qw_combo[] = {KC_W, KC_F, COMBO_END};
+const uint16_t PROGMEM wf_combo[] = {KC_W, KC_F, COMBO_END};
+const uint16_t PROGMEM uy_combo[] = {KC_U, KC_Y, COMBO_END};
+const uint16_t PROGMEM commdot_combo[] = {KC_COMM, KC_DOT, COMBO_END};
 
 combo_t key_combos[] = {
-    [WF_ESC] = COMBO(qw_combo, KC_ESC),
+    [WF_ESC] = COMBO(wf_combo, KC_ESC),
+    [UY_BPSC] = COMBO(uy_combo, KC_BSPC),
+    [COMMDOT_ENT] = COMBO(commdot_combo, KC_ENT),
 };
 
 enum {
