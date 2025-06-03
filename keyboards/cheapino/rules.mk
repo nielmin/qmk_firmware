@@ -6,6 +6,7 @@ REPEAT_KEY_ENABLE = yes
 TAP_DANCE_ENABLE = yes
 COMBO_ENABLE = yes
 NKRO_DEFAULT_ON = yes
+VPATH += keyboards/gboards
 SRC += encoder.c
 SRC += ghosting.c
 SRC += matrix.c

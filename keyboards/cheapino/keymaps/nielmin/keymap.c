@@ -2,6 +2,7 @@
 #if __has_include("keymap.h")
 #    include "keymap.h"
 #endif
+#include "g/keymap_combo.h"
 
 
 /* THIS FILE WAS GENERATED!
@@ -17,41 +18,6 @@ enum layers {
     _NUM,
     _GAM1,
     _GAM2,
-};
-
-enum combos {
-    WF_ESC,
-    UY_BPSC,
-    COMMDOT_ENT,
-    FP_LBRC,
-    ST_LPRN,
-    CD_LCBR,
-    LU_RBRC,
-    NE_RPRN,
-    HCOMM_RCBR
-};
-
-const uint16_t PROGMEM wf_combo[] = {KC_W, KC_F, COMBO_END};
-const uint16_t PROGMEM uy_combo[] = {KC_U, KC_Y, COMBO_END};
-const uint16_t PROGMEM commdot_combo[] = {KC_COMM, KC_DOT, COMBO_END};
-
-const uint16_t PROGMEM fp_combo[] = {KC_F, KC_P, COMBO_END};
-const uint16_t PROGMEM st_combo[] = {KC_S, KC_T, COMBO_END};
-const uint16_t PROGMEM cd_combo[] = {KC_C, KC_D, COMBO_END};
-const uint16_t PROGMEM lu_combo[] = {KC_L, KC_U, COMBO_END};
-const uint16_t PROGMEM ne_combo[] = {KC_N, KC_E, COMBO_END};
-const uint16_t PROGMEM hcomm_combo[] = {KC_H, KC_COMM, COMBO_END};
-
-combo_t key_combos[] = {
-    [WF_ESC] = COMBO(wf_combo, KC_ESC),
-    [UY_BPSC] = COMBO(uy_combo, KC_BSPC),
-    [COMMDOT_ENT] = COMBO(commdot_combo, KC_ENT),
-    [FP_LBRC] = COMBO(fp_combo, KC_LBRC),
-    [ST_LPRN] = COMBO(st_combo, KC_LPRN),
-    [CD_LCBR] = COMBO(cd_combo, KC_LCBR),
-    [LU_RBRC] = COMBO(lu_combo, KC_RBRC),
-    [NE_RPRN] = COMBO(ne_combo, KC_RPRN),
-    [HCOMM_RCBR] = COMBO(hcomm_combo, KC_RCBR),
 };
 
 enum {
