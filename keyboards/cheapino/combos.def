@@ -1,5 +1,5 @@
 //   name           result      chord keys
-COMB(WF_ESC,        KC_ESC,     KC_W, KC_B)
+COMB(NE_ESC,        KC_ESC,     KC_N, KC_E)
 COMB(UY_BPSC,       KC_BSPC,    KC_U, KC_Y)
 COMB(COMMDOT_ENT,   KC_ENT,     KC_COMM, KC_DOT)
 COMB(PL_LBRC,       KC_LBRC,    KC_P, KC_L)
