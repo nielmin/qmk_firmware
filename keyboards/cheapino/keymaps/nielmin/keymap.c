@@ -12,6 +12,7 @@ enum layers {
     _NUM,
     _GAM1,
     _GAM2,
+    _GAM3,
 };
 
 enum {
@@ -72,5 +73,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_P, KC_O, KC_J, KC_H, KC_G,                   KC_G, KC_H, KC_J, KC_K, KC_L,
         KC_O, KC_I, KC_N, KC_M, KC_B,                   KC_B, KC_N, KC_M, KC_COMM, KC_DOT,
             KC_NO, KC_NO, KC_NO,                            KC_NO, KC_NO, TG(4)
+    ),
+    [_GAM3] = LAYOUT_split_3x5_3(
+        KC_ESC, KC_4, KC_5, KC_6, KC_T,                 KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+        KC_MINS, KC_EQL, KC_LBRC, KC_RBRC, KC_F5,       KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+        KC_O, KC_I, KC_N, KC_M, KC_F9,                  KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+            KC_NO, KC_NO, KC_NO,                            KC_NO, KC_NO, KC_NO
     ),
 };
