@@ -17,24 +17,10 @@ enum layers {
 
 enum {
     TD_TAB_ESC,
-    TD_F_G,
 };
-
-void td_fg_finished(tap_dance_state_t *state, void *user_data) {
-    if (layer_state_is(_GAM1)) {
-        if (state->count == 1) {
-            tap_code(KC_F);
-        } else if (state->count == 2) {
-            tap_code(KC_G);
-        }
-    } else {
-        tap_code(KC_F);
-    }
-}
 
 tap_dance_action_t tap_dance_actions[] = {
     [TD_TAB_ESC] = ACTION_TAP_DANCE_DOUBLE(KC_TAB, KC_ESC),
-    [TD_F_G] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_fg_finished, NULL)
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
