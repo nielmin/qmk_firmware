@@ -16,6 +16,9 @@
         "term": 180,
         "permissive_hold": true
     },
+    "combo": {
+        "term": 40,
+    },
     "caps_word": {
         "enabled": true,
         "both_shifts_turns_on": true
