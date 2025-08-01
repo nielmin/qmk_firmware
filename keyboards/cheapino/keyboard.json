@@ -13,7 +13,7 @@
         "nkro": true
     },
     "tapping": {
-        "term": 170,
+        "term": 160,
         "permissive_hold": true
     },
     "combo": {
