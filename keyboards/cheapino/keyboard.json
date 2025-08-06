@@ -17,7 +17,7 @@
         "permissive_hold": true
     },
     "combo": {
-        "term": 40,
+        "term": 60,
     },
     "caps_word": {
         "enabled": true,
