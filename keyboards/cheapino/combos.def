@@ -1,9 +1,4 @@
 //   name           result      chord keys
-COMB(UY_BPSC,       KC_BSPC,    KC_U, KC_Y)
+COMB(QW_ESC,        KC_ESC,     KC_Q, KC_W)
+COMB(YGRAVE_BSPC,   KC_BSPC,    KC_Y, KC_GRAVE)
 COMB(COMMDOT_ENT,   KC_ENT,     KC_COMM, KC_DOT)
-COMB(PL_LBRC,       KC_LBRC,    KC_P, KC_L)
-COMB(TN_LPRN,       KC_LPRN,    KC_T, KC_N)
-COMB(DH_LCBR,       KC_LCBR,    KC_D, KC_H)
-COMB(BJ_RBRC,       KC_RBRC,    KC_B, KC_J)
-COMB(GM_RPRN,       KC_RPRN,    KC_G, KC_M)
-COMB(VK_RCBR,       KC_RCBR,    KC_V, KC_K)
