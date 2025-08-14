@@ -19,9 +19,9 @@ enum {
     TD_TAB_ESC,
 };
 
-tap_dance_action_t tap_dance_actions[] = {
-    [TD_TAB_ESC] = ACTION_TAP_DANCE_DOUBLE(KC_TAB, KC_ESC),
-};
+// tap_dance_action_t tap_dance_actions[] = {
+//     [TD_TAB_ESC] = ACTION_TAP_DANCE_DOUBLE(KC_TAB, KC_ESC),
+// };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT_split_3x5_3(
