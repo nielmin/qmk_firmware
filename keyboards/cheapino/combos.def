@@ -1,3 +1,11 @@
-//   name           result      chord keys
-COMB(ZX_ENT,        KC_ENT,     KC_Z, KC_X)
-COMB(YQUOT_BSPC,    KC_BSPC,    KC_Y, KC_QUOT)
+//   name       result      chord keys
+COMB(BN,        KC_EXLM,    KC_B, KC_N)
+COMB(LR,        KC_AT,      KC_L, KC_R)
+COMB(DT,        KC_HASH,    KC_D, KC_T)
+COMB(CS,        KC_DLR,     KC_C, KC_S)
+COMB(VG,        KC_PERC,    KC_V, KC_G)
+COMB(JP,        KC_CIRC,    KC_J, KC_P)
+COMB(YH,        KC_AMPR,    KC_Y, KC_H)
+COMB(OA,        KC_ASTR,    KC_O, KC_A)
+COMB(UE,        KC_UNDS,    KC_U, KC_E)
+COMB(QUOTI,     KC_SCLN,    KC_QUOT, KC_I)
